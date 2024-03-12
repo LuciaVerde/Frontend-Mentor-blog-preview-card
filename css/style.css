@@ -1,0 +1,104 @@
+/*colors*/
+/*fonts*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  row-gap: 2rem;
+  place-content: center;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Figtree", sans-serif;
+}
+.card .cardImage {
+  border-radius: 0.625rem;
+}
+.card .cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+}
+.card .cardContent .badge {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-weight: 800;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-style: normal;
+}
+.card .cardContent .small {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3125rem;
+  color: hsl(0, 0%, 7%);
+}
+.card .cardContent .cardTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 2.25rem;
+  color: hsl(0, 0%, 7%);
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+.card .cardContent .cardTitle:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: url(/assets/images/handcursor.svg) 10 10, auto;
+}
+.card .cardContent .cardText {
+  font-size: 1rem;
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+  line-height: 1.5rem;
+  align-self: stretch;
+  font-style: normal;
+}
+.card .cardFooter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card .cardFooter .cardFooterImage {
+  max-width: 2rem;
+}
+.card .cardFooter .cardFooterText {
+  font-size: 0.875rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.3125rem;
+  color: hsl(0, 0%, 7%);
+}
+
+.attribution {
+  font-family: "Figtree", sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.attribution .attibutionLink {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
